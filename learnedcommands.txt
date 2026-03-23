@@ -1,0 +1,31 @@
+steps learned in Github
+
+Steps - 1
+Create a local file in PC then clone github repo into local repo
+* Create new folder in desktop
+* Open VSCODE 
+* Select file 
+* open folder 
+* Then selected the created folder in local
+
+steps - 2
+clonning the repo from GITHUB to Local (created folder) using VSCODE
+* Open terminal in VSCODE
+* Type "git clone (copy the origin code of repo)"
+
+Steps - 3 
+Create the local file in VSCODE then push the same in GITHUB
+* Command 
+* cd /"file name"
+* Select file for creation
+* Provide file name 
+* Then type "git status"
+* The created file shows untracked with red mark
+* So have to add untracked file 
+* command "git add file name"
+* Then type "git status"
+* The added file shows like staged with green
+* now we can commit the file to access
+* command "git commit (file name) -m "(provide the commit message)"
+* Then we can push this file to GITHUB origin
+* Command "git push origin main"
