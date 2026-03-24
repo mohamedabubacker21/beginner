@@ -1,5 +1,12 @@
 steps learned in Github
 
+24-03-2026
+
+Git configuration in workspace 
+open command prompt
+* git config --global user.name "git user name"
+* git config --global user.email "gmail name"
+
 Steps - 1
 Create a local file in PC then clone github repo into local repo
 * Create new folder in desktop
@@ -29,3 +36,21 @@ Create the local file in VSCODE then push the same in GITHUB
 * command "git commit (file name) -m "(provide the commit message)"
 * Then we can push this file to GITHUB origin
 * Command "git push origin main"
+
+25-03-2026
+
+1. Configured WSL working with ubuntu terminal in VSCODE
+* Extentions -> WSL download
+* open terminal in VSCODE 
+* Type -> WSL
+
+2. Configure the git access in VSCODE WSL
+* command "git config --global user.name "mohamedabubacker21"
+* command "git config --global user.email "mohamedabubacker64@gmail.com"
+
+3. Token Configuration for GITHUB , Access from WSL VSCODE
+* setting->developer settings->personal access tokens->create classic token->provide required permissions->generate
+* token id ( saved in desktop )
+
+4. Clone the generated file from GITHUB to VSCODE workspace 
+* command "git pull"
