@@ -29,7 +29,7 @@ Create the local file in VSCODE then push the same in GITHUB
 * Then type "git status"
 * The created file shows untracked with red mark
 * So have to add untracked file 
-* command "git add file name"
+* command "git add file name" ( Hint for all use git add . )
 * Then type "git status"
 * The added file shows like staged with green
 * now we can commit the file to access
@@ -54,3 +54,32 @@ Create the local file in VSCODE then push the same in GITHUB
 
 4. Clone the generated file from GITHUB to VSCODE workspace 
 * command "git pull"
+
+28-03-2026
+
+1. Push local directory to GitHub
+* Create a Local Directory as beginner2
+* Create file called index.html and style.css using touch command
+* Terminal "Git init" ( this command for .git clone support folder)
+* terminal "git add ." ( Note : this command to add all file which are all been editied)
+* Terminal "git commit -m "message" 
+* Create new repo in GITHUB and copy the link
+* terminal "git remote add origin "link"
+* Verify Git branch name 
+* Terminal "git branch"
+* Change branch name if need 
+* Terminal "git branch -m main 
+
+2. Create sub branch and merge to main
+* List branch 
+* command "git branch -a"
+* Create a branch in GITHUB
+* Git pull (from Github to Local)
+* change branch
+* git checkout "branch name"
+* Check branch diffrence 
+* Command Git diff "branchname"
+* merge branch 
+* Command git merge "requiredbranch"
+_
+
